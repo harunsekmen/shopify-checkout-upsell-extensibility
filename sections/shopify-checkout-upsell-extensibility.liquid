@@ -1,0 +1,20 @@
+{% comment %}
+  Section: Shopify Checkout UI Upsell Extension
+  Author: Harun Sekmen (@harunsekmen)
+{% endcomment %}
+
+<div class="shopify-checkout-upsell-extensibility-wrapper" data-section-id="{{ section.id }}">
+  {% render 'shopify-checkout-upsell-extensibility-component' %}
+</div>
+
+{% schema %}
+{
+  "name": "Shopify Checkout UI ",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Shopify Checkout UI "
+    }
+  ]
+}
+{% endschema %}
