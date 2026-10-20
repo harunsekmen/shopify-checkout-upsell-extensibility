@@ -1,0 +1,13 @@
+name = "shopify-checkout-upsell"
+type = "ui_extension"
+
+[[targeting]]
+module = "./src/Checkout.jsx"
+target = "purchase.checkout.block.render"
+
+[configuration]
+[[configuration.fields]]
+key = "upsell_product_id"
+type = "product_reference"
+name = "Recommended Upsell Product"
+description = "Product displayed inside checkout block"
